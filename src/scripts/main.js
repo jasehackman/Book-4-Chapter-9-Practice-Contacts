@@ -16,7 +16,6 @@ $("#forum_button").click(() => {
 })
 
 jsonGet().then(data => {
-  console.log(build(data));
   $("#section_postToDom").html(build(data))
 
 })
