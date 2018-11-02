@@ -1,22 +1,16 @@
 {
   "contact": [
     {
-      "name": "Name",
-      "number": "Number",
-      "address": "Address",
+      "name": "Jase",
+      "number": "234-543-1928",
+      "address": "113 South North Street, Nashville, TN 37221",
+      "id": 1
+    },
+    {
+      "name": "Bob",
+      "number": "143-234-8765",
+      "address": "112 West West St. Nashville, TN 37013",
       "id": 2
-    },
-    {
-      "name": "Jase",
-      "number": "23423",
-      "address": "09jk",
-      "id": 3
-    },
-    {
-      "name": "Jase",
-      "number": "23423",
-      "address": "Jlsdf",
-      "id": 4
     }
   ]
 }

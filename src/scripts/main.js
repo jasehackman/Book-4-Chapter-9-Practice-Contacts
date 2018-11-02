@@ -12,11 +12,16 @@ $("#forum_button").click(() => {
     number: formNumber,
     address: formAddress
   }
-    jsonPost(formObj);
+  jsonPost(formObj).then(
+  jsonGet().then(data => {
+    console.log(data);
+    $("#section_postToDom").html(null);
+    $("#section_postToDom").html(build(data))
+  }))
 })
 
 jsonGet().then(data => {
+  $("#section_postToDom").html(null);
   $("#section_postToDom").html(build(data))
-
 })
 
